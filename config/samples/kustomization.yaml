@@ -1,0 +1,13 @@
+## Append samples you want in your CSV to this file as resources ##
+resources:
+- backstage_v1alpha1_component.yaml
+- backstage_v1alpha1_template.yaml
+- backstage_v1alpha1_api.yaml
+- backstage_v1alpha1_group.yaml
+- backstage_v1alpha1_user.yaml
+- backstage_v1alpha1_resource.yaml
+- backstage_v1alpha1_system.yaml
+- backstage_v1alpha1_domain.yaml
+- backstage_v1alpha1_locations.yaml
+- backstage_v1alpha1_location.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples
